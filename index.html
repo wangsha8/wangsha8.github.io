@@ -6,6 +6,75 @@
         <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css">
         <script src="Scripts/jquery-1.9.1.min.js"></script>
         <script src="Scripts/bootstrap.min.js" ></script>
+    </head>
+    <body>
+        <form action="confirm.html">
+            <div class="panel-group row" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">&nbsp;Drink</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <ul class="list-group checked-list-box">
+                            <li class="list-group-item">&nbsp;Water</li>
+                            <li class="list-group-item">&nbsp;Coke</li>
+                            <li class="list-group-item">&nbsp;Sprite</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">&nbsp;Appetizer</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <ul class="list-group checked-list-box">
+                            <li class="list-group-item">
+                                &nbsp;Pig Ear<br />
+                                <img src="images/zhuerduo.jpg" style="width:200px" />
+                            </li>
+                            <li class="list-group-item">
+                                &nbsp;Popcorn Chicken<br />
+                                <img src="images/yansuji.jpg" style="width:200px" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">&nbsp;Hotpot</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <ul class="list-group checked-list-box">
+                            <li class="list-group-item">
+                                &nbsp;Seafood Hotpot<br />
+                                <img src="images/seafoodHotpot.jpg" style="width:200px" />
+                            </li>
+                            <li class="list-group-item">
+                                &nbsp;Beef Hotpot<br />
+                                <img src="images/beefHotpot.jpg" style="width:200px" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <center><button class="btn btn-default">Submit</button></center>
+            </div>
+        </form>
+        <style>
+            html * {
+                font-size: 1.1em !important;
+            }
+        </style>
         <script>
             $(function () {
                 $('.list-group.checked-list-box .list-group-item').each(function () {
@@ -86,77 +155,5 @@
                 });
             });
         </script>
-    </head>
-    <body>
-        <form action="confirm.html">
-            <div class="panel-group row" id="accordion">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">&nbsp;Drink</a>
-                        </h4>
-                    </div>
-                    <div id="collapse1" class="panel-collapse collapse">
-                        <ul class="list-group checked-list-box">
-                            <li class="list-group-item">Water</li>
-                            <li class="list-group-item">Coke</li>
-                            <li class="list-group-item">Sprite</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">&nbsp;Appetizer</a>
-                        </h4>
-                    </div>
-                    <div id="collapse2" class="panel-collapse collapse">
-                        <ul class="list-group checked-list-box">
-                            <li class="list-group-item">
-                                Pig Ear<br />
-                                <img src="images/zhuerduo.jpg" style="width:200px" />
-                            </li>
-                            <li class="list-group-item">
-                                Popcorn Chicken<br />
-                                <img src="images/yansuji.jpg" style="width:200px" />
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">&nbsp;Hotpot</a>
-                        </h4>
-                    </div>
-                    <div id="collapse3" class="panel-collapse collapse">
-                        <ul class="list-group checked-list-box">
-                            <li class="list-group-item">
-                                Seafood Hotpot<br />
-                                <img src="images/seafoodHotpot.jpg" style="width:200px" />
-                            </li>
-                            <li class="list-group-item">
-                                Beef Hotpot<br />
-                                <img src="images/beefHotpot.jpg" style="width:200px" />
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row">
-                <center><button class="btn btn-default">Submit</button></center>
-            </div>
-        </form>
-        <style>
-            html *
-            {
-               font-size: 1.1em !important;
-               color: #000 !important;
-               font-family: Arial !important;
-            }
-        </style>
     </body>
 </html>
