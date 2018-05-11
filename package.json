@@ -1,0 +1,31 @@
+{
+  "name": "wangsha8.github.io",
+  "version": "1.0.0",
+  "description": "ouhuangwebsite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangsha8/wangsha8.github.io.git"
+  },
+  "author": "shaojun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangsha8/wangsha8.github.io/issues"
+  },
+  "homepage": "https://github.com/wangsha8/wangsha8.github.io#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.8.1",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
